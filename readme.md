@@ -49,5 +49,5 @@ The server will be running on `http://localhost:3000` or any port indicated in y
 
 ## Live API Endpoints
 
-- **GET** `https://norebasebetc.onrender.com/api/articles/:articleId/likes` - Get the like count for an article.
-- **POST** `https://norebasebetc.onrender.com/api/articles/:articleId/likes` - Increment the like count for an article.
+- **GET** `https://norebasebetc.onrender.com/api/likes/:articleId` - Get the like count for an article.
+- **POST** `https://norebasebetc.onrender.com/api/likes/:articleId` - Increment the like count for an article.

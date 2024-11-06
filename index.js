@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
   res.send("NorebaseBETC server is live!");
 });
 
-app.route('/api/articles/:articleId/likes')
+app.route('/api/likes/:articleId')
 .get(getLikesCount) // Get Like Count
 .post(incrementLikeCount) // Increment Like Count
 
