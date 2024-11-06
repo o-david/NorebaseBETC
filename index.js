@@ -3,7 +3,7 @@ import { connectDB } from "./db.js";
 import dotenv from "dotenv";
 import cors from "cors";
 import rateLimit from "express-rate-limit";
-import { getLikesCount, incrementLikeCount } from "./controllers/articleControllers.js";
+import { getLikesCount, incrementLikeCount } from "./controllers/like.Controller.js";
 
 dotenv.config();
 const app = express();
